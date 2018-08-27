@@ -6,7 +6,7 @@ import { Any } from "./any";
  *
  * @param target the class
  */
-export function JsonConverter(target: any) {
+export function JsonConverter(target: any): any {
     target[Settings.MAPPER_PROPERTY] = "";
 }
 
