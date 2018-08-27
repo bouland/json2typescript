@@ -3,7 +3,7 @@
  *
  * @param target the class
  */
-export declare function JsonConverter(target: any): void;
+export declare function JsonConverter(target: any): any;
 /**
  * Decorator of a class that comes from a JSON object.
  *
